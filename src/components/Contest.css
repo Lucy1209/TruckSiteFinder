@@ -1,0 +1,34 @@
+.contest-section {
+    padding: 80px 20px;
+    background-color: white;
+    color: #333;
+    text-align: center;
+  }
+  
+  .contest-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .contest-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contest-section a {
+    display: inline-block;
+    background-color: #d46618;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contest-section a:hover {
+    background-color: #bb560e;
+  }
+  
