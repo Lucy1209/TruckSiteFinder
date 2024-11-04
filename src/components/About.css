@@ -16,4 +16,30 @@
     max-width: 800px;
     margin: 0 auto;
   }
+
+  .info-sections {
+    display: flex;
+    justify-content: space-between; /* 각 파트를 고르게 배치 */
+    margin-top: 40px; /* 상단 여백 추가 */
+}
+
+.info-part {
+    flex: 1; /* 각 파트가 동일한 비율로 공간을 차지하도록 설정 */
+    padding: 0 20px; /* 좌우 여백 추가 */
+}
+
+.info-part h3 {
+    font-size: 24px; /* 파트 제목 스타일 */
+    margin-bottom: 10px; /* 제목과 설명 사이 여백 */
+}
+
+.info-part p {
+    font-size: 16px; /* 설명 스타일 */
+}
+
+@media (max-width: 768px) {
+  .info-sections {
+      flex-direction: column; /* 모바일에서는 세로 방향으로 나열 */
+  }
+}
   
